@@ -1,4 +1,11 @@
-# LOLOSQLTOOLS
+```
+██╗      ██████╗ ██╗      ██████╗ ███████╗ ██████╗ ██╗     ████████╗ ██████╗  ██████╗ ██╗     ███████╗
+██║     ██╔═══██╗██║     ██╔═══██╗██╔════╝██╔═══██╗██║     ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
+██║     ██║   ██║██║     ██║   ██║███████╗██║   ██║██║        ██║   ██║   ██║██║   ██║██║     ███████╗
+██║     ██║   ██║██║     ██║   ██║╚════██║██║▄▄ ██║██║        ██║   ██║   ██║██║   ██║██║     ╚════██║
+███████╗╚██████╔╝███████╗╚██████╔╝███████║╚██████╔╝███████╗   ██║   ╚██████╔╝╚██████╔╝███████╗███████║
+╚══════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝ ╚══▀▀═╝ ╚══════╝   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
+```
 
 MCP server that validates, formats, and generates SQL objects following BSG Institute standardization rules — integrated with Claude Code.
 
@@ -68,7 +75,7 @@ Restart Claude Code.
 Add this block to your `~/.claude/CLAUDE.md` to make Claude use LOLOSQLTOOLS automatically:
 
 ```markdown
-## LOLOSQLTOOLS MCP
+## LOLOSQLTOOLS MCP instructions for CLAUDE.md
 
 The `lolosqltools` MCP is ALWAYS available. For any SQL object (table, view, SP, function, trigger), you MUST use it:
 
